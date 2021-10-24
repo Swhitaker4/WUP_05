@@ -1,5 +1,5 @@
 ---
-title: "Aides Drug"
+title: "Aids Drug"
 author: "Sara Whitaker"
 date: " October 20 2021"
 output: html_document
@@ -16,6 +16,9 @@ triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?.  If you skimp in this section expect to be marked down in your grade. Paint a picture of the project a couple of paragraphs is expected!-->
 
 A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the females, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command.
+
+$H_0$: Among the women, there is no difference in the percentage of women who got aids between those who received the vaccine vs placebo.
+$H_A$:Among the women that contracted aids, there i a difference between those that received the vaccine vs placebo. 
 
 # Methods
 
@@ -89,3 +92,5 @@ There were three tests ran. Of the three, each result showed that the P values w
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The results show that the odds ratio of contracting aids after gettting the vaccine in women is 1.543902:1. The results conclude that there is a significant difference in the percentage in women that took the vaccine vs those that took the placebo, thus we reject the null hypothesis. Women that got the vaccine were more llikely to contract aids than those wh got the placebo due to the confidence interval for the odd ratio is entirely above 1. The vaccine does not protect women but instead increases the chanes of women getting aids, the vaccine is not beneficial for women.
